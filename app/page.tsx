@@ -51,7 +51,7 @@ export default function Home() {
             <p className="text-center fs-4">Paldi, Ahmedabad</p>
           </div>
         </div>
-        <div className={`row ${Styles.containerHeight}`}>
+        <div className={`row mb-3 ${Styles.containerHeight}`}>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">International FIDE rated Chess coaches </li>
             <li className="list-group-item">Interactive learning online</li>
@@ -59,9 +59,9 @@ export default function Home() {
             <li className="list-group-item">Regular tournaments</li>
             <li className="list-group-item">Personal Attention</li>
           </ul>
-          <button className="btn btn-primary col-4">Join our Live Chess classes now</button>
+          <button className=" btn btn-primary col-4">Join our Live Chess classes now</button>
         </div>
-        <div className={`row row-cols-1 row-cols-lg-2 ${Styles.containerHeight}`}>
+        <div className={`row mb-5 row-cols-1 row-cols-lg-2 ${Styles.containerHeight}`}>
           <div className="col">
             <h3 className="text-center">Wil come Image</h3>
           </div>
@@ -81,9 +81,20 @@ export default function Home() {
         <div className={`row row-cols-1 row-cols-lg-3 ${Styles.containerHeight}`}>
           <div className="col">
             <h3 className="text-center">Contact Us</h3>
-            <br />
-            <p className="mt-3">Ask us anything! We’re here to answer any questions you have.
+            <p className="">Ask us anything! We’re here to answer any questions you have.
 
+            </p>
+            <p>
+              <b>
+              Email
+              </b>
+              : shahschessacademy@gmail.com
+            </p>
+            <p>
+              <b>
+              Phone No
+              </b>
+               : 9558062087
             </p>
           </div>
           <div className="col">
@@ -97,12 +108,12 @@ export default function Home() {
             <h3 className="text-center">​Subscribe for Updates & Offers</h3>
             <div>
               <input type="text" name="" id="" className="form-control" placeholder="Enter Your Email Here." />
-              <div><button className="btn btn-info w-100 mt-3">Subscribe Now</button></div>
-              <span className="fs-6">Thanks for Submitting!</span>
+              <div className="mb-2"><button className="btn btn-info w-100 mt-3">Subscribe Now</button></div>
+              <span className=" fs-6">Thanks for Submitting!</span>
             </div>
           </div>
         </div>
-        <p className="fs-4">Let's Improve together!</p>
+        <p className="fs-4 text-center">Let's Improve together!</p>
       </div>
     </main>
   );
