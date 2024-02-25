@@ -1,3 +1,11 @@
 .siteheader{
-  background-color: #00ebc0;
+  background-color: #bc6c25;
+}
+.sitecolor{
+  background-color:  #bc6c25;
+  color: #fefae0;
+}
+.conatinerBackgrounds{
+  background-color: #dda15e!important;
+  color: #fefae0 !important;
 }

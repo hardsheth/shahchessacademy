@@ -1,3 +1,25 @@
 .containerHeight{
+  min-height: 250px;
+}
+.imagecontainerHeight{
+  height: 250px; 
+  background-color: transparent;
+  width: 100%;
+}
+.imagefullcontainer{
   height: 250px;
+width: 100%;
+  text-align: center;
+}
+.maincontent{
+  background-color: fefae0 !important;
+}
+.archivementImg{
+  width:500px;
+  height: 250px;
+}
+.row.archivementImg{
+  position: absolute;
+  left:50%;
+  right:50%
 }
