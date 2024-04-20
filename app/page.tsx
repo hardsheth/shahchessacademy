@@ -16,7 +16,7 @@ export default function Home() {
           </p>
         </div>
         <div className="text-center">
-        <img src='/asset/vrushtiArchievement123.jpg' height={100} width={100} alt='Image will Come' className={Styles.imagefullcontainer} />
+        <img src='/asset/vrushtiArchievement123.jpg' height={100} width={100} alt='Image will Come' className={`${Styles.imagefullcontainer}`} />
         </div>
          
         <div className={`row row-cols-1 row-cols-lg-5 ${Styles.containerHeight}`}>
@@ -34,9 +34,9 @@ export default function Home() {
             </ul>
           </div>
         </div>
-        <div className={`row row-cols-1 row-cols-lg-5 ${Styles.containerHeight}`}>
+        <div className={`row row-cols-1 row-cols-lg-5 ${Styles.containerHeight} text-align-center`}>
           <div className="col">
-            <img src="/asset/vrushtiCources.jpg" alt='Image will Cource Image' className={Styles.imagecontainerHeight} />
+          <img src="/asset/vrushtiCources.jpg" alt='Image will Cource Image' className={Styles.imagecontainerHeight} />
           </div>
           <div className="col">
             <ul className="list-group list-group-flush conatinerBackgrounds">
@@ -47,9 +47,10 @@ export default function Home() {
             </ul>
           </div>
         </div>
-        <div className={`row position-relative ${Styles.containerHeight} text-center`}>
-         
-                <img src='/asset/vrushtiaward.jpg' height={100} width={100} alt='Image will Come' className={Styles.archivementImg} />
+        <div className={`row w-100 position-relative ${Styles.containerHeight} text-center mx-auto`}>
+          <div className="mx-auto">
+                <img src='/asset/vrushtiaward.jpg' alt='Image will Come' className={`borderImage img-fluid ${Styles.archivementImg}`} />
+          </div>
          <div className="row ">
             <h4 className="text-center">Location</h4>
             <p className="text-center fs-4">Paldi, Ahmedabad</p>
@@ -69,15 +70,13 @@ export default function Home() {
           <button className="w-100 btn btn-primary ">Join our Live Chess classes now</button>
           </div>
         </div>
-        <div className={`row mb-2 row-cols-1 row-cols-lg-2 ${Styles.containerHeight} `}>
-          <div className="col">
-            <h3 className="text-center">
-              <img src='/asset/vrushtiimage.png' height={100} width={100} alt='Image will Come' />
-            </h3>
+        <div className={`row mb-2 row-cols-1 row-cols-lg-4 ${Styles.containerHeight } gap-0 h-auto`}>
+          <div className="col m-0 p-0">
+              <img src='/asset/vrushtiimage.png' className="img-fluid borderImage maxpersonheight" alt='Image will Come' />
           </div>
-          <div className="col ">
-            <h4 className="text-center">About Vrushti Shah</h4>
-            <p className=" fs-6">Shah Vrushti, a seasoned chess player with over 15 years of experience and a highest FIDE rating of 1614. Multiple time district and state champion, received bronze medal at JITO Nationals from Bhuvneshwar Kumar. </p>
+          <div className={`col col-lg-9 m-0 p-0 ${Styles.textContainerNg}`}>
+            <h4 className="text-center my-3">About Vrushti Shah</h4>
+            <p className="text-start fs-6">Shah Vrushti, a seasoned chess player with over 15 years of experience and a highest FIDE rating of 1614. Multiple time district and state champion, received bronze medal at JITO Nationals from Bhuvneshwar Kumar. </p>
             <p className="fs-6">
               Received award for chess from Prime Minister Shri Narendra Modi, prestigious awards like Junior Jaydeep singhji Award and Shaktidutt Award.
             </p>

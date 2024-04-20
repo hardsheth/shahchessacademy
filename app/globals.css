@@ -9,3 +9,16 @@
   background-color: #dda15e!important;
   color: #fefae0 !important;
 }
+.borderImage{
+  border: 5px #540404 solid;
+}
+.maxpersonheight{
+  height: auto;
+}
+
+@media (min-width: 701px){
+  .maxpersonheight{
+    height: 250px !important;
+    width: 265px !important
+  }
+} 
