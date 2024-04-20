@@ -6,8 +6,12 @@
   background-color: #783F00;
 
 }
+.courceimgcontainer{
+  height: 205px;
+  width: 100%;
+  }
 .imagecontainerHeight{
-  height: 250px; 
+  height: 165px; 
   background-color: transparent;
   width: 100%;
 }
@@ -37,4 +41,15 @@ width: 100%;
     height: 350px;
     border: 5px #540404 solid;
   }
+  .courceimgcontainer{
+    height: 205px;
+    width: 114%;
+    margin-left: -10px;
+    }
+    .imagecontainerHeight{
+      height: 165px; 
+      background-color: transparent;
+      width: 114%;
+      margin-left: -10px;
+    }
 } 

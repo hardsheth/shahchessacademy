@@ -12,13 +12,31 @@
 .borderImage{
   border: 5px #540404 solid;
 }
+
 .maxpersonheight{
   height: auto;
+}
+.px-6{
+  padding-right: auto;
+  padding-left: auto;
+}
+.h-400{
+height: 400px !important;
+width: 100% !important;
+}
+.mx-0-rem{
+  margin-right: -1rem !important;
+  margin-left: -1rem !important;
 }
 
 @media (min-width: 701px){
   .maxpersonheight{
-    height: 250px !important;
-    width: 265px !important
+    height: 325px !important;
+    width: 265px !important;
+    margin: 0rem -10px
+  }
+  .px-6{
+    padding-right: 10rem !important;
+    padding-left: 10rem !important;
   }
 } 
