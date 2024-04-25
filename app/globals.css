@@ -32,8 +32,8 @@ width: 100% !important;
 @media (min-width: 701px){
   .maxpersonheight{
     height: 325px !important;
-    width: 265px !important;
-    margin: 0rem -10px
+    width: 100% ;
+    margin: 0rem ;
   }
   .px-6{
     padding-right: 10rem !important;

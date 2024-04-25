@@ -34,6 +34,13 @@ width: 100%;
   margin-left: 50%;
   margin-right:50% ;
 }
+.offer{
+  height: 205px;
+  width: 100%;
+}
+.borderPerson{
+  border: 5px #783F00  solid;
+}
 
 @media (min-width: 701px){
   .archivementImg{
@@ -43,8 +50,8 @@ width: 100%;
   }
   .courceimgcontainer{
     height: 205px;
-    width: 114%;
-    margin-left: -10px;
+    /* width: 114%; */
+    /* margin-left: -10px; */
     }
     .imagecontainerHeight{
       height: 165px; 
