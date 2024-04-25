@@ -23,7 +23,7 @@ export default function Home() {
           </div>
           <h3 className="text-center my-2">Our Courses</h3>
           <div className={`row row-cols-1 row-cols-lg-4 gap-0 `}>
-            <div className="col col-lg-9 pe-0">
+            <div className="col col-lg-9 pe-md-0">
               <ul className={`list-group list-group-flush `}>
                 <li className="list-group-item conatinerBackgrounds">Level 1 Beginner </li>
                 <li className="list-group-item conatinerBackgrounds">Level 2 Intermidiate-1</li>
@@ -32,18 +32,18 @@ export default function Home() {
                 <li className="list-group-item conatinerBackgrounds">Extra Perks</li>
               </ul>
             </div>
-            <div className="col ps-0 pe-4">
+            <div className="col ps-md-0 pe-4">
               <img src="/asset/vrushtiCourses.jpg" alt='Image will Cource Image' className={`borderImage ${Styles.courceimgcontainer}`} />
             </div>
 
           </div>
           <h3 className="text-center my-2">What We Offer</h3>
-          <div className={`row mt-2 row-cols-1 row-cols-lg-4 w-100 ${Styles.containerHeight} text-align-center`}>
-            <div className="col m-0 pe-0">
+          <div className={`row mt-2 row-cols-1 row-cols-lg-4 w-100 ${Styles.containerHeight} text-align-center gap-0`}>
+            <div className="col m-md-0 pe-md-0">
               <img src="/asset/vrushtiCourses.png" alt='Image will Cource Image' className={`borderImage ${Styles.offer}`} />
             </div>
-            <div className="col col-lg-9 p-0">
-              <ul className="list-group list-group-flush conatinerBackgrounds ">
+            <div className="col col-lg-9 pt-3 pt-md-0 p-md-0">
+              <ul className="list-group list-group-flush conatinerBackgrounds p-0 m-0">
                 <li className="list-group-item conatinerBackgrounds text-end">Opening Strategies</li>
                 <li className="list-group-item conatinerBackgrounds text-end">Middle Game Mastery</li>
                 <li className="list-group-item conatinerBackgrounds text-end">End Game Excellence</li>
@@ -52,7 +52,7 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <div className={`row mb-3 ${Styles.containerHeight}`}>
+          <div className={`row mt-2 mt-md-0 mb-3 ${Styles.containerHeight}`}>
             <div className="col col-lg-12">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item conatinerBackgrounds">International FIDE rated Chess coaches </li>
@@ -75,13 +75,13 @@ export default function Home() {
               <p className="text-center fs-4">Paldi, Ahmedabad</p>
             </div>
           </div>
-         
+
           <div className={`row mb-2 ms-1 row-cols-1 row-cols-lg-4 ${Styles.containerHeight} gap-0 h-auto bg-primary`}>
-          <div className="col m-0 p-0">
+            <div className="col m-md-0 p-0">
               <img src='/asset/vrushtiimage.jpg' className={`img-fluid ${Styles.borderPerson} maxpersonheight`} alt='Image will Come' />
             </div>
-            <div className={`col col-lg-9 m-0 p-0 pe-4 ${Styles.textContainerNg}`}>
-              <h4 className="text-center my-3">About Vrushti Shah</h4>
+            <div className={`col col-lg-9 m-md-0 p-0 pe-4 ${Styles.textContainerNg}`}>
+              <h4 className="text-center my-3">Vrushti Shah</h4>
               <p className="text-start fs-6 ps-3">Shah Vrushti, a seasoned chess player with over 15 years of experience and a FIDE rating of 1650. Multiple time district and state champion, received bronze medal at JITO Nationals from Bhuvneshwar Kumar. </p>
               <p className="fs-6 ps-3">
                 Received award for chess from Prime Minister Shri Narendra Modi, prestigious awards like Junior Jaydeep singhji Award and Shaktidutt Award.
@@ -90,9 +90,24 @@ export default function Home() {
                 Played at International level in Thailand as well as participated in many National, Common Wealth, Asian tournaments.</p>
             </div>
           </div>
-          <div className="mx-auto text-center mt-3">
-              <button type="button" className="btn btn-primary ">Book A Free Demo</button>
+          <div className={`row mb-2 ms-1 row-cols-1 row-cols-lg-4 ${Styles.containerHeight} gap-0 h-auto bg-primary`}>
+            <div className={`col col-lg-9 m-md-0 p-0 pe-4 ${Styles.textContainerNg}`}>
+              <h4 className="text-center my-3">Binoy Shah</h4>
+              <p className="text-start fs-6 ps-3">Shah Vrushti, a seasoned chess player with over 15 years of experience and a FIDE rating of 1650. Multiple time district and state champion, received bronze medal at JITO Nationals from Bhuvneshwar Kumar. </p>
+              <p className="fs-6 ps-3">
+                Received award for chess from Prime Minister Shri Narendra Modi, prestigious awards like Junior Jaydeep singhji Award and Shaktidutt Award.
+              </p>
+              <p className=" fs-6  ps-3">
+                Played at International level in Thailand as well as participated in many National, Common Wealth, Asian tournaments.</p>
             </div>
+            <div className="col m-md-0 p-0">
+              <img src='/asset/vrushtiimage.jpg' className={`img-fluid ${Styles.borderPerson} maxpersonheight`} alt='Image will Come' />
+            </div>
+
+          </div>
+          <div className="mx-auto text-center mt-3">
+            <button type="button" className="btn btn-primary ">Book A Free Demo</button>
+          </div>
           <div className={`mt-5 row row-cols-1 row-cols-lg-3 ${Styles.containerHeight} ${Styles.textContainerNg} pt-1`}>
             <div className="col">
               <h3 className="text-center">Contact Us</h3>
@@ -113,7 +128,7 @@ export default function Home() {
               </p>
             </div>
             <div className="col">
-             
+
               <h3 className="text-center">Follow Us</h3>
               <div className="text-center">
                 <FaInstagram size={40} color="pink " className="mx-3" />
