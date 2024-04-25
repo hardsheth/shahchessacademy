@@ -76,4 +76,11 @@
     height: 205px;
     width: 100%;
   }
+  .weblogoview{
+    height: 235px;
+  }
+  .siteimg{
+    max-width: 55%;
+    height: 290px !important;
+  }
 }

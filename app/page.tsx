@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Styles from "./page.module.css"
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
@@ -6,23 +5,26 @@ export default function Home() {
   return (
     <main>
       <div className={`container-fluid ${Styles.maincontent} sitecolor`}>
+        <div className="d-block mx- mb-0 d-md-none">
+          <img src='/asset/academylogo.jpg' alt='Image will Come' className={`img-fluid borderImage`} />
+        </div>
         <div className="pt-4 mx-5">
           <div className={`${Styles.textContainerNg} `}>
             <h1 className="text-center pt-4 mb-0">Shah Chess Academy</h1>
           </div>
         </div>
         <div className={`mx-5 ${Styles.textContainerNg}`}>
-          <h3 className="pt-3 text-center">Play, Learn and Connect </h3>
+          <h4 className="pt-3 text-center">Play, Learn and Connect </h4>
           <p className="mt-3 pb-2 text-center flex-wrap px-5">
             Chess Academy where passion meets strategy.<br /> A vibrant community of chess enthusiasts where you have expert coaches for professional guidance.<br /> Learn with Fun.
           </p>
         </div>
         <div className="container">
           <div className="text-center w-100 ">
-            <img src='/asset/vrushtiArchievement123.jpg' alt='Image will Come' className={`img-fluid  h-400 borderImage`} />
+            <img src='/asset/vrushtiArchievement123.jpg' alt='Image will Come' className={`img-fluid ${Styles.siteimg}  h-400 borderImage`} />
           </div>
           <h3 className="text-center my-2">Our Courses</h3>
-          <div className={`row row-cols-1 row-cols-lg-4 gap-0 `}>
+          <div className={`row row-cols-1 row-cols-lg-4 gap-0 align-items-end`}>
             <div className="col col-lg-9 pe-md-0">
               <ul className={`list-group list-group-flush `}>
                 <li className="list-group-item conatinerBackgrounds">Level 1 Beginner </li>
@@ -62,7 +64,7 @@ export default function Home() {
                 <li className="list-group-item conatinerBackgrounds">Personal Attention</li>
               </ul>
             </div>
-            <div className="col-12 col-lg-4 mx-auto ">
+            <div className="col-12 col-lg-4 mx-auto mt-3 ">
               <button className="w-100 btn btn-primary ">Join our Live Chess classes now</button>
             </div>
           </div>
@@ -91,6 +93,9 @@ export default function Home() {
             </div>
           </div>
           <div className={`row mb-2 ms-1 row-cols-1 row-cols-lg-4 ${Styles.containerHeight} gap-0 h-auto bg-primary`}>
+            <div className="d-block d-md-none col m-md-0 p-0">
+              <img src='/asset/vrushtiimage.jpg' className={`img-fluid ${Styles.borderPerson} maxpersonheight`} alt='Image will Come' />
+            </div>
             <div className={`col col-lg-9 m-md-0 p-0 pe-4 ${Styles.textContainerNg}`}>
               <h4 className="text-center my-3">Binoy Shah</h4>
               <p className="text-start fs-6 ps-3">Shah Vrushti, a seasoned chess player with over 15 years of experience and a FIDE rating of 1650. Multiple time district and state champion, received bronze medal at JITO Nationals from Bhuvneshwar Kumar. </p>
@@ -100,7 +105,7 @@ export default function Home() {
               <p className=" fs-6  ps-3">
                 Played at International level in Thailand as well as participated in many National, Common Wealth, Asian tournaments.</p>
             </div>
-            <div className="col m-md-0 p-0">
+            <div className="d-none d-md-block col m-md-0 p-0">
               <img src='/asset/vrushtiimage.jpg' className={`img-fluid ${Styles.borderPerson} maxpersonheight`} alt='Image will Come' />
             </div>
 
@@ -140,7 +145,7 @@ export default function Home() {
               <div>
                 <input type="text" name="" id="" className="form-control" placeholder="Enter Your Email Here." />
                 <div className="mb-2"><button className="btn btn-info w-100 mt-3">Subscribe Now</button></div>
-                <span className=" fs-6">Thanks for Submitting!</span>
+                <span className="fs-6">Thanks for Submitting!</span>
               </div>
             </div>
           </div>
