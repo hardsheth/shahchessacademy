@@ -82,7 +82,7 @@ export default function Home() {
             </div>
             <div className={`col col-lg-9 m-0 p-0 pe-4 ${Styles.textContainerNg}`}>
               <h4 className="text-center my-3">About Vrushti Shah</h4>
-              <p className="text-start fs-6">Shah Vrushti, a seasoned chess player with over 15 years of experience and a FIDE rating of 1650. Multiple time district and state champion, received bronze medal at JITO Nationals from Bhuvneshwar Kumar. </p>
+              <p className="text-start fs-6 ps-3">Shah Vrushti, a seasoned chess player with over 15 years of experience and a FIDE rating of 1650. Multiple time district and state champion, received bronze medal at JITO Nationals from Bhuvneshwar Kumar. </p>
               <p className="fs-6">
                 Received award for chess from Prime Minister Shri Narendra Modi, prestigious awards like Junior Jaydeep singhji Award and Shaktidutt Award.
               </p>
