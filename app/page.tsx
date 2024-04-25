@@ -110,7 +110,7 @@ export default function Home() {
               </p>
             </div>
             <div className="col">
-              <div className="mx-auto text-center">
+              <div className="mx-auto text-center mb-3">
               <button type="button" className="btn btn-primary ">Book A Free Demo</button>
             </div>
               <h3 className="text-center">Follow Us</h3>
