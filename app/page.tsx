@@ -83,17 +83,17 @@ export default function Home() {
             <div className={`col col-lg-9 m-0 p-0 pe-4 ${Styles.textContainerNg}`}>
               <h4 className="text-center my-3">About Vrushti Shah</h4>
               <p className="text-start fs-6 ps-3">Shah Vrushti, a seasoned chess player with over 15 years of experience and a FIDE rating of 1650. Multiple time district and state champion, received bronze medal at JITO Nationals from Bhuvneshwar Kumar. </p>
-              <p className="fs-6">
+              <p className="fs-6 ps-3">
                 Received award for chess from Prime Minister Shri Narendra Modi, prestigious awards like Junior Jaydeep singhji Award and Shaktidutt Award.
               </p>
-              <p className=" fs-6">
+              <p className=" fs-6  ps-3">
                 Played at International level in Thailand as well as participated in many National, Common Wealth, Asian tournaments.</p>
             </div>
           </div>
           <div className="mx-auto text-center mt-3">
               <button type="button" className="btn btn-primary ">Book A Free Demo</button>
             </div>
-          <div className={`mt-5 row row-cols-1 row-cols-lg-3 ${Styles.containerHeight}`}>
+          <div className={`mt-5 row row-cols-1 row-cols-lg-3 ${Styles.containerHeight} ${Styles.textContainerNg} pt-1`}>
             <div className="col">
               <h3 className="text-center">Contact Us</h3>
               <p className="">Ask us anything! We’re here to answer any questions you have.
