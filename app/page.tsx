@@ -90,6 +90,9 @@ export default function Home() {
                 Played at International level in Thailand as well as participated in many National, Common Wealth, Asian tournaments.</p>
             </div>
           </div>
+          <div className="mx-auto text-center mt-3">
+              <button type="button" className="btn btn-primary ">Book A Free Demo</button>
+            </div>
           <div className={`mt-5 row row-cols-1 row-cols-lg-3 ${Styles.containerHeight}`}>
             <div className="col">
               <h3 className="text-center">Contact Us</h3>
@@ -110,9 +113,7 @@ export default function Home() {
               </p>
             </div>
             <div className="col">
-              <div className="mx-auto text-center mb-3">
-              <button type="button" className="btn btn-primary ">Book A Free Demo</button>
-            </div>
+             
               <h3 className="text-center">Follow Us</h3>
               <div className="text-center">
                 <FaInstagram size={40} color="pink " className="mx-3" />
