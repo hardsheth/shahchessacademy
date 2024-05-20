@@ -5,10 +5,11 @@ export default function Home() {
   return (
     <main>
       <div className={`container-fluid ${Styles.maincontent} sitecolor`}>
-        <div className="d-block mx- mb-0 d-md-none">
+       
+        <div className="pt-4 mx-5">
+        <div className="d-block my-4 mb-0 d-md-none">
           <img src='/asset/academylogo.jpg' alt='Image will Come' className={`img-fluid borderImage`} />
         </div>
-        <div className="pt-4 mx-5">
           <div className={`${Styles.textContainerNg} `}>
             <h1 className="text-center pt-4 mb-0">Shah Chess Academy</h1>
           </div>
@@ -39,8 +40,7 @@ export default function Home() {
             </div>
 
           </div>
-          <h3 className="text-center my-2">What We Offer</h3>
-          <div className={`row mt-2 row-cols-1 row-cols-lg-4 w-100 ${Styles.containerHeight} text-align-center gap-0`}>
+          <div className={`row my-3 row-cols-1 row-cols-lg-4 w-100 ${Styles.containerHeight} text-align-center gap-0`}>
             <div className="col m-md-0 pe-md-0">
               <img src="/asset/vrushtiCourses.png" alt='Image will Cource Image' className={`borderImage ${Styles.offer}`} />
             </div>
@@ -54,6 +54,7 @@ export default function Home() {
               </ul>
             </div>
           </div>
+          <h3 className="text-center my-2">What We Offer</h3>
           <div className={`row mt-2 mt-md-0 mb-3 ${Styles.containerHeight}`}>
             <div className="col col-lg-12">
               <ul className="list-group list-group-flush">
@@ -64,20 +65,8 @@ export default function Home() {
                 <li className="list-group-item conatinerBackgrounds">Personal Attention</li>
               </ul>
             </div>
-            <div className="col-12 col-lg-4 mx-auto mt-3 ">
-              <button className="w-100 btn btn-primary ">Join our Live Chess classes now</button>
-            </div>
+           
           </div>
-          <div className={`row w-100 position-relative ${Styles.containerHeight} text-center mx-auto`}>
-            <div className="mx-auto">
-              <img src='/asset/vrushtiaward.jpg' alt='Image will Come' className={`borderImage img-fluid ${Styles.archivementImg}`} />
-            </div>
-            <div className="row ">
-              <h4 className="text-center">Location</h4>
-              <p className="text-center fs-4">Paldi, Ahmedabad</p>
-            </div>
-          </div>
-
           <div className={`row mb-2 ms-1 row-cols-1 row-cols-lg-4 ${Styles.containerHeight} gap-0 h-auto bg-primary`}>
             <div className="col m-md-0 p-0">
               <img src='/asset/vrushtiimage.jpg' className={`img-fluid ${Styles.borderPerson} maxpersonheight`} alt='Image will Come' />
@@ -94,9 +83,9 @@ export default function Home() {
           </div>
           <div className={`row mb-2 ms-1 row-cols-1 row-cols-lg-4 ${Styles.containerHeight} gap-0 h-auto bg-primary`}>
             <div className="d-block d-md-none col m-md-0 p-0">
-              <img src='/asset/vrushtiimage.jpg' className={`img-fluid ${Styles.borderPerson} maxpersonheight`} alt='Image will Come' />
+              <img src='/asset/BinoyShah.jpg' className={`img-fluid binoyWidth maxpersonheight`} alt='Image will Come' />
             </div>
-            <div className={`col col-lg-9 m-md-0 p-0 pe-4 ${Styles.textContainerNg}`}>
+            <div className={`col col-lg-9 m-md-0 p-0 pe-4 pe-lg-2 ${Styles.textContainerNg}`}>
               <h4 className="text-center my-3">Binoy Shah</h4>
               <p className="text-start fs-6 ps-3">Shah Vrushti, a seasoned chess player with over 15 years of experience and a FIDE rating of 1650. Multiple time district and state champion, received bronze medal at JITO Nationals from Bhuvneshwar Kumar. </p>
               <p className="fs-6 ps-3">
@@ -106,10 +95,25 @@ export default function Home() {
                 Played at International level in Thailand as well as participated in many National, Common Wealth, Asian tournaments.</p>
             </div>
             <div className="d-none d-md-block col m-md-0 p-0">
-              <img src='/asset/vrushtiimage.jpg' className={`img-fluid ${Styles.borderPerson} maxpersonheight`} alt='Image will Come' />
+              <img src='/asset/BinoyShah.jpg' className={`img-fluid   maxpersonheight`} alt='Image will Come' />
             </div>
 
           </div>
+          <div className="col-12 col-lg-4 mx-auto my-3 ">
+              <button className="w-100 btn btn-primary ">Join our Live Chess classes now</button>
+            </div>
+          <div className={`row w-100 position-relative ${Styles.containerHeight} text-center mx-auto`}>
+            <div className="mx-auto">
+              <img src='/asset/vrushtiaward.jpg' alt='Image will Come' className={`borderImage img-fluid ${Styles.archivementImg}`} />
+            </div>
+            <div className="row ">
+              <h4 className="text-center">Location</h4>
+              <p className="text-center fs-4">Paldi, Ahmedabad</p>
+            </div>
+          </div>
+
+         
+          
           <div className="mx-auto text-center mt-3">
             <button type="button" className="btn btn-primary ">Book A Free Demo</button>
           </div>

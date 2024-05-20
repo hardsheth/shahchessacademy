@@ -39,4 +39,7 @@ width: 100% !important;
     padding-right: 10rem !important;
     padding-left: 10rem !important;
   }
+  .binoyWidth{
+    object-fit: cover;
+  }
 } 
