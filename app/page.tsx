@@ -57,7 +57,7 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <h3 className="text-center my-2">What We Offer</h3>
+          <h3 className="text-center my-4">What We Offer</h3>
           <div className={`row mt-2 mt-md-0 mb-3 ${Styles.containerHeight}`}>
             <div className="col col-lg-12">
               <ul className="list-group list-group-flush">
