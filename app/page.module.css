@@ -10,9 +10,10 @@
 
 .courceimgcontainer {
   height: 205px;
-  width: 104%;
+  width: 100%;
   margin-top: 10px;
   margin-left: 1px;
+  object-fit: inherit;
 }
 
 .imagecontainerHeight {
@@ -80,7 +81,7 @@
     height: 235px;
   }
   .siteimg{
-    max-width: 55%;
+    max-width: 35%;
     height: 290px !important;
   }
 }

@@ -1,3 +1,4 @@
+'use client'
 import Styles from "./page.module.css"
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
@@ -5,11 +6,12 @@ export default function Home() {
   return (
     <main>
       <div className={`container-fluid ${Styles.maincontent} sitecolor`}>
-       
-        <div className="pt-4 mx-5">
-        <div className="d-block my-4 mb-0 d-md-none">
-          <img src='/asset/academylogo.jpg' alt='Image will Come' className={`img-fluid borderImage`} />
-        </div>
+
+        <div className="pt-4 mx-5 position-relative">
+          <div className="d-block my-4 mb-0 d-md-none">
+            <img src='/asset/academylogo.jpg' alt='Image will Come' className={`img-fluid borderImage`} />
+          </div>
+          <img src='/asset/academylogo.jpg' alt='Image will Come' className={`weblogo borderImage`} />
           <div className={`${Styles.textContainerNg} `}>
             <h1 className="text-center pt-4 mb-0">Shah Chess Academy</h1>
           </div>
@@ -20,6 +22,7 @@ export default function Home() {
             Chess Academy where passion meets strategy.<br /> A vibrant community of chess enthusiasts where you have expert coaches for professional guidance.<br /> Learn with Fun.
           </p>
         </div>
+
         <div className="container">
           <div className="text-center w-100 ">
             <img src='/asset/vrushtiArchievement123.jpg' alt='Image will Come' className={`img-fluid ${Styles.siteimg}  h-400 borderImage`} />
@@ -65,7 +68,7 @@ export default function Home() {
                 <li className="list-group-item conatinerBackgrounds">Personal Attention</li>
               </ul>
             </div>
-           
+
           </div>
           <div className={`row mb-2 ms-1 row-cols-1 row-cols-lg-4 ${Styles.containerHeight} gap-0 h-auto bg-primary`}>
             <div className="col m-md-0 p-0">
@@ -87,12 +90,15 @@ export default function Home() {
             </div>
             <div className={`col col-lg-9 m-md-0 p-0 pe-4 pe-lg-2 ${Styles.textContainerNg}`}>
               <h4 className="text-center my-3">Binoy Shah</h4>
-              <p className="text-start fs-6 ps-3">Shah Vrushti, a seasoned chess player with over 15 years of experience and a FIDE rating of 1650. Multiple time district and state champion, received bronze medal at JITO Nationals from Bhuvneshwar Kumar. </p>
+              <p className="text-start fs-6 ps-3">(International chess player and FIDE Arbiter)</p>
+              <p className="text-start fs-6 ps-3">Binoy Shah is an international chess player with FIDE rating of 2124. Numerous times State champion.  </p>
               <p className="fs-6 ps-3">
-                Received award for chess from Prime Minister Shri Narendra Modi, prestigious awards like Junior Jaydeep singhji Award and Shaktidutt Award.
+                International rated chess player who has played many international tournaments. One of the best coaches and chess enthusiast.
+
               </p>
               <p className=" fs-6  ps-3">
-                Played at International level in Thailand as well as participated in many National, Common Wealth, Asian tournaments.</p>
+                FIDE Arbiter in chess and was Deputy Chief arbiter in asians and Arbiter in World Youth at South Africa. Taken team to All India interuniversity tournament as chess coach and manager.
+              </p>
             </div>
             <div className="d-none d-md-block col m-md-0 p-0">
               <img src='/asset/BinoyShah.jpg' className={`img-fluid   maxpersonheight`} alt='Image will Come' />
@@ -100,8 +106,8 @@ export default function Home() {
 
           </div>
           <div className="col-12 col-lg-4 mx-auto my-3 ">
-              <button className="w-100 btn btn-primary ">Join our Live Chess classes now</button>
-            </div>
+            <button className="w-100 btn btn-primary ">Join our Live Chess classes now</button>
+          </div>
           <div className={`row w-100 position-relative ${Styles.containerHeight} text-center mx-auto`}>
             <div className="mx-auto">
               <img src='/asset/vrushtiaward.jpg' alt='Image will Come' className={`borderImage img-fluid ${Styles.archivementImg}`} />
@@ -112,8 +118,8 @@ export default function Home() {
             </div>
           </div>
 
-         
-          
+
+
           <div className="mx-auto text-center mt-3">
             <button type="button" className="btn btn-primary ">Book A Free Demo</button>
           </div>

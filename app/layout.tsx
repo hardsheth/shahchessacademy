@@ -6,7 +6,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Shah Chess Academy",
-  description: "Online/Offline Chess Coaching Class",
+  description: "Enhance your skills with top-notch chess coaching and training in Ahmedabad. Our expert coaches offer personalized lessons for all levels. Join our program today and master the game of chess!",
+  keywords:['Chess coaching','Best online chess coaching','Chess training',' Online chess coaching for kids','Chess coaching for kids'],
+  openGraph: {
+    images: ['/favicon.jpg'],
+    description:'Enhance your skills with top-notch chess coaching and training in Ahmedabad. Our expert coaches offer personalized lessons for all levels. Join our program today and master the game of chess!',
+    title:'Shah Chess Academy'
+  },
 };
 
 export default function RootLayout({
